@@ -1,6 +1,8 @@
 package com.newcollections;
 
-  public class StringClassPractice {
+import java.util.StringJoiner;
+
+public class StringClassPractice {
 
 	   public static void string1Test() {
            String color = "Black";
@@ -74,5 +76,12 @@ package com.newcollections;
 		         splitWord();
 		         getUpperlowerCase();
 	  
-	  }
+	   StringJoiner strj = new StringJoiner(".");
+	      
+	         strj.add("jhuma...").add("akter...");
+	         System.out.println(strj);
+	       
+	       
+	       
+   }
 }
